@@ -44,7 +44,7 @@ This project uses React for the frontend, Mantine for UI components, and include
 To get started with the project, follow these steps:
 ### 1. Clone the Repository
    ```sh
-    git clone [[link of repo]](https://github.com/ankitraj-1602/crops-data-analytics.git)
+    git clone https://github.com/ankitraj-1602/crops-data-analytics.git
     cd Crop-Data-Dashboard
 ```
 ### 2.  Install Dependencies
