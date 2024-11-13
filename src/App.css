@@ -1,0 +1,70 @@
+.app {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+  }
+  
+  h1 {
+    color: black; 
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #60cdff; 
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  tbody td {
+    font-family: 'Arial, sans-serif';
+  }
+  
+  thead th {
+    font-family: 'Georgia, serif';
+  }
+  @media (max-width: 1200px) {
+    .app {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .app {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }

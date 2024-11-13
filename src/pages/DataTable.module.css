@@ -1,0 +1,87 @@
+/* Styles for the DataTable container */
+.data-table-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+/* Styles for the table */
+.data-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for the table */
+}
+
+.data-table-container th,
+.data-table-container td {
+  border: 1px solid #e1e1e1; /* Light gray border for a softer look */
+  padding: 12px;
+  text-align: center; /* Center-aligns the content */
+  vertical-align: middle; /* Centers content vertically */
+  font-size: 16px; /* Increased font size */
+}
+
+.data-table-container th {
+  background-color: #4a90e2; /* Professional blue for the header */
+  color: #ffffff; /* White text for contrast */
+  padding: 16px; /* Increase padding for the header */
+  font-weight: bold; /* Bold header text */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.data-table-container tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+.data-table-container tr:nth-child(odd) {
+  background-color: #ffffff; /* White background for odd rows */
+}
+
+/* Hover effect for the entire data row (not header) */
+.data-table-container tbody tr:hover {
+  background-color: #f1f1f1; /* Slightly darker gray for hover effect */
+  /* color: #4a90e2; Change text color to header color on hover */
+}
+
+/* No hover effect for header */
+.data-table-container th:hover {
+  background-color: #4a90e2; /* Keep the background color same */
+  color: #ffffff; /* Keep text color white */
+}
+
+/* Hover effect for table cells (only applies to data rows) */
+.data-table-container td:hover {
+  background-color: inherit; /* Inherit the row hover background color */
+  color: inherit; /* Inherit the row text color */
+}
+
+.data-table-container td {
+  font-size: 16px; /* Increased font size for table data */
+}
+
+/* Styles for the pagination component */
+.page {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+/* Responsive Styles for DataTable */
+@media (max-width: 1200px) {
+  .data-table-container {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .data-table-container {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .data-table-container {
+    margin: 0;
+  }
+}
